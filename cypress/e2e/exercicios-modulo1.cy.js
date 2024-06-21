@@ -1,4 +1,4 @@
-describe('Treinando comando cy.visit / cy.get / cy.contains', () => {
+describe('Treinando comandos cy.visit / cy.get / cy.contains', () => {
   
   it('Visitar página principal e clicar em "Ver pets disponíveis para adoção"', () => {
     cy.visit('https://adopet-frontend-cypress.vercel.app/');
