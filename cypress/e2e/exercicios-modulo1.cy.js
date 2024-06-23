@@ -1,12 +1,14 @@
 describe('Treinando comandos cy.visit / cy.get / cy.contains', () => {
   
-  it('Visitar página principal e clicar em "Ver pets disponíveis para adoção"', () => {
+  BeforeEach(() => {
     cy.visit('https://adopet-frontend-cypress.vercel.app/');
+  })
+
+  it('Visitar página principal e clicar em "Ver pets disponíveis para adoção"', () => {
     cy.get('.button').click();
   })
 
   it('Visitar pagina adopet e clicar nos headers', () => {
-    cy.visit('https://adopet-frontend-cypress.vercel.app/');
     cy.get('.header__home').click();
     cy.get('.header__message').click();
   })
