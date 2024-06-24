@@ -10,16 +10,15 @@
 
 describe('Login Successuful', () => {
 
-    beforeEach(() => {
-      cy.visit('https://adopet-frontend-cypress.vercel.app/');
-      cy.get('[data-test="login-button"]').click();
+  beforeEach(() => {
+    cy.visit('https://adopet-frontend-cypress.vercel.app/');
+    cy.get('[data-test="login-button"]').click();
 
-    })
+  })
 
-    it('Needes to type "email","password" and click on "login", after redirect to home', () => {
-      cy.get('[data-test="input-loginEmail"]').type ('ana@email.com');
-      cy.get('[data-test="input-loginPassword"]').type ('Senha123');
-      cy.get('[data-test="submit-button"]').click();
+  it('Needes to type "email","password" and click on "login", after redirect to home', () => {
+    
+    cy.login('ana@email.com','Senha123');
         
-    })
+  })  
 })

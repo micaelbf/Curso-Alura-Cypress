@@ -1,4 +1,5 @@
-describe('Treinando comandos cy.visit / cy.get / cy.contains', () => {
+
+describe('Exercicios Modulo 1', () => {
 
   beforeEach(() => {
     cy.visit('https://adopet-frontend-cypress.vercel.app/');
