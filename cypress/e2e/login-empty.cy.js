@@ -4,15 +4,12 @@
 //E: Clicar em "Entrar".
 //Então: Ele deve receber as menssagens de erro, solicitando a verificação do e-mail e senha.    
 
-describe('Login e Senha Vazios', () => {
+describe('Teste Duble', () => {
 
   beforeEach(() => {
     cy.visit('https://adopet-frontend-cypress.vercel.app');
     cy.get('[data-test="login-button"]').click();
-    cy.intercept(
-      'POST', 
-      'https://adopet-api-i8qu.onrender.com/adotante/login',
-      {statusCode: 400}).as('stubPost');
+    cy.forcestatuscode400();
   })
   
   it('Deve apresentar as mensagens de erro ao deixar os dados de login em branco', () => {

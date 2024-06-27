@@ -48,6 +48,13 @@ Cypress.Commands.add('login', (email, senha) => {
     cy.get('[data-test="submit-button"]').click();
 })
 
+Cypress.Commands.add('forcestatuscode400', () => {
+    cy.intercept( 
+        'POST', 
+        'https://adopet-api-i8qu.onrender.com/adotante/login',
+        { statusCode: 400 },).as('stubPost');
+})
+
 
 
 

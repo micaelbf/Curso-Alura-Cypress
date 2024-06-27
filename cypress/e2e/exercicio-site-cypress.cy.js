@@ -1,4 +1,4 @@
-describe('Verificação página de cadastro', () => {
+describe('Site Exemplo Cypress', () => {
 
     beforeEach(() => {
         cy.visit('https://example.cypress.io/todo');
