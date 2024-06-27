@@ -1,0 +1,56 @@
+{
+    "usuarios": [
+      {
+        "name": "Peter Jason Quill",
+        "email": "peter.quill@alura.com.br",
+        "password": "Senha123"
+      },
+      {
+        "name": "Gamora Zen Whoberi Ben Titan",
+        "email": "gamora.zen@alura.com.br",
+        "password": "Senha456"
+      },
+      {
+        "name": "Drax the Destroyer",
+        "email": "drax.destroyer@alura.com.br",
+        "password": "Senha789"
+      },
+      {
+        "name": "Rocket Raccoon",
+        "email": "rocket.raccoon@alura.com.br",
+        "password": "Senha321"
+      },
+      {
+        "name": "Groot",
+        "email": "groot@alura.com.br",
+        "password": "EuSouGroot"
+      },
+      {
+        "name": "Mantis",
+        "email": "mantis@alura.com.br",
+        "password": "Senha654"
+      },
+      {
+        "name": "Nebula",
+        "email": "nebula@alura.com.br",
+        "password": "Senha987"
+      },
+      {
+        "name": "Yondu Udonta",
+        "email": "yondu.udonta@alura.com.br",
+        "password": "Senha246"
+      },
+      {
+        "name": "Kraglin Obfonteri",
+        "email": "kraglin.obfonteri@alura.com.br",
+        "password": "Senha135"
+      },
+      {
+        "name": "Thanos",
+        "email": "thanos@alura.com.br",
+        "password": "Gauntlet123"
+      }
+    ]
+  }
+  
+  
